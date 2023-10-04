@@ -13,7 +13,7 @@
     <title>Login</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleIR.css">
 </head>
 <body>
     <div class="wrapper">
@@ -35,7 +35,7 @@
             </div>
             <button type="submit" class="btn">Login</button>
             <div class="register-link">
-                <p>Don't have an account <a href="register.html">Register</a></p>
+                <p>Don't have an account <a href="register.jsp">Register</a></p>
             </div>
         </form>
     </div>

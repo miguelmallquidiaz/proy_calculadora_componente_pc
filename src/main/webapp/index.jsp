@@ -50,6 +50,17 @@
 
         <div class="container mt-4">
             <div class="row align-items-center">
+                <div class="col-3">
+                    <label for="miCampoTexto" class="text-left fs-4">Ingresar monto: </label>
+                </div>
+                <div class="col-3">
+                    <input type="text" id="miCampoTexto" name="miCampoTexto">
+                </div>
+            </div>
+        </div>
+        
+        <div class="container mt-4">
+            <div class="row align-items-center">
                 <div class="col">
                     <p class="text-left fs-4">CPU:</p>
                 </div>
@@ -97,7 +108,7 @@
         <div class="container mt-4">
             <div class="row align-items-center">
                 <div class="col">
-                    <p class="text-left fs-4">Memoria: </p>
+                    <p class="text-left fs-4">Memoria RAM: </p>
                 </div>
             </div>
             <div class="row align-items-center">
@@ -107,16 +118,15 @@
             </div>
         </div>
         
-        <div class="container mt-4">
+        <div class="container mt-4 mb-4">
             <div class="row align-items-center">
-                <div class="col-3">
-                    <p class="text-left fs-4">Precio Total: </p>
+                <div class="col">
+                    <p class="text-left fs-4">Tarjeta Gráfica: </p>
                 </div>
-                <div class="col-3">
-                    <p class="text-left fs-4">$155</p>
-                </div>
-                <div class="col-3">
-                    <button class="btn btn-primary btn-block">Comprar</button>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-md-3 mt-3 mt-md-0">
+                    <a href="tabla.html" class="btn btn-primary btn-auto">Seleccionar componente</a>
                 </div>
             </div>
         </div>

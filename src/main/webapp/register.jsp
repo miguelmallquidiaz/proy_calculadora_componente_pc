@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <form action="./php/register.php" method="post">
+        <form action="RegisterServlet" method="post">
             <h1>Registrarte</h1>
             <div class="input-box">
                 <input type="text" placeholder="Nombres" name="name" required>
@@ -28,7 +28,7 @@
                 <i class='bx bxs-user-detail'></i>
             </div>
             <div class="input-box">
-                <input type="text" placeholder="Correo" name="mail" required>
+                <input type="email" placeholder="Correo" name="mail" required>
                 <i class='bx bxs-envelope' ></i>
             </div>
             <div class="input-box">

@@ -1,0 +1,1 @@
+# proy_calculadora_componente_pc

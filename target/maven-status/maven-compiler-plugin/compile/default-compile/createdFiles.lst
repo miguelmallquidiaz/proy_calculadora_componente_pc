@@ -1,2 +1,7 @@
-com\mycompany\calculadora_de_componentes\JakartaRestConfiguration.class
 com\mycompany\calculadora_de_componentes\resources\JakartaEE10Resource.class
+config\CCadena.class
+controlador\LoginControler.class
+com\mycompany\calculadora_de_componentes\JakartaRestConfiguration.class
+config\Conexion.class
+modelo\UsuarioDAO.class
+modelo\UUsuario.class

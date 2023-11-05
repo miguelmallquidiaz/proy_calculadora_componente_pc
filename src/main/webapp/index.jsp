@@ -5,6 +5,13 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%
+String username = (String) session.getAttribute("username");
+if (username == null) {
+    response.sendRedirect("login.jsp");
+}
+%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -26,10 +33,10 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link text-light">Nombre de Usuario</a>
+                            <a class="nav-link text-light"><%= username %></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Salir</a>
+                            <a class="nav-link text-light" href="logout.jsp">Salir</a>
                         </li>
                     </ul>
                 </div>
